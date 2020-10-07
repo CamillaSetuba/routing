@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Routing"
+    }
+  },
+  "defaultProject": "Routing",
+  "cli": {
+    "analytics": false
+  }
 }

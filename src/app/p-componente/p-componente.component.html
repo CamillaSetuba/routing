@@ -1,0 +1,14 @@
+<p *ngIf="this.nome === 'Camilla Araujo'">Primeiro componente</p><!-- usando diretivas, neste caso será possível comparar valores, sejam eles iguais ou diferentes, maior ou menos. Podemos usar a diretiva para mostrar valores-->
+
+<input type="text" (input)="passarValor($event.target.value)"> <!--passando valores do input para a função nome-->
+
+<br> <br>
+
+{{nome}} <!--interpolando databindings-->
+
+
+<div *ngFor="let item of arrayValores">
+
+        {{item}}
+
+</div>
